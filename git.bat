@@ -1,6 +1,6 @@
 @ECHO OFF
 
-execId=%RANDOM%
+set execId=%RANDOM%
 
 /home/marek/bin/git_wrapper/worker.sh %execId% %*
 
